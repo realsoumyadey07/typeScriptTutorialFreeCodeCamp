@@ -13,7 +13,14 @@ type User = {
      isActive: boolean
 }
 
+
 const allUsers : User[] = [];
+let myName: User = {
+     name: "Soumya",
+     isActive: true
+}
+allUsers.push(myName);
+console.log(allUsers);
 
 
 

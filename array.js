@@ -6,5 +6,10 @@ var wapons = [];
 superHeros.push("Ram", "Hanuman");
 villains.push("ravan", "Indrajit");
 wapons.push(1, 2, 3, 4);
-console.log(superHeros);
-console.log(wapons);
+var allUsers = [];
+var myName = {
+    name: "Soumya",
+    isActive: true
+};
+allUsers.push(myName);
+console.log(allUsers);
