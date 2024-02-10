@@ -14,6 +14,13 @@ type Admin = {
 }
 let soumya: User | Admin = {name: "Soumya Dey", id: 119};
 soumya = {username: "The Developer", id: 119};
-console.log(soumya);
+// console.log(soumya);
 
+function getDbId(id: number | string){
+    console.log(`DB id is: ${id}`);
+    if (typeof id === 'string'){
+        id.toLowerCase();
+    }
+}
+getDbId(45);
 export {}
