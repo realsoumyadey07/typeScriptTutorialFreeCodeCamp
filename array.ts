@@ -14,7 +14,7 @@ type User = {
 }
 
 
-const allUsers : User[] = [];
+const allUsers : Array<User> = [];
 let myName: User = {
      name: "Soumya",
      isActive: true
