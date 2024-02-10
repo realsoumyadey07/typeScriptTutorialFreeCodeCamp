@@ -1,3 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var superHeros = [];
+var villains = [];
+var wapons = [];
 superHeros.push("Ram", "Hanuman");
+villains.push("ravan", "Indrajit");
+wapons.push(1, 2, 3, 4);
 console.log(superHeros);
+console.log(wapons);
