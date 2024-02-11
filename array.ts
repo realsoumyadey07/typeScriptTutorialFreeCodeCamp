@@ -19,8 +19,25 @@ let myName: User = {
      name: "Soumya",
      isActive: true
 }
-allUsers.push(myName);
-console.log(allUsers);
+
+type employeeType = {
+     name: string,
+     email: string,
+     salary: number
+}
+const employee: Array<employeeType> = [];
+
+// employee.push({name: "Soumya Dey", email: "soumya@gmail.com", salary: 100000});
+// console.log(employee);
+
+const data3: (string | number)[] = ['1',  '6'];
+
+let seatAllotment: "window" | "crew";
+seatAllotment = "window" ;
+
+
+// allUsers.push(myName);
+// console.log(allUsers);
 
 
 
