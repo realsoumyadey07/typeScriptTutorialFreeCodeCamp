@@ -9,12 +9,4 @@ const soumya = SeatChoice.AISLE;
 
 
 
-
-
-
-
-
-
-
-
 export {}
