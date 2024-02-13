@@ -19,6 +19,15 @@ class User {
         this._courseCount = courseNum;
     }
 }
+class SubUser extends User {
+    constructor() {
+        super(...arguments);
+        this.isFamily = true;
+    }
+    changeCourseCount(count) {
+        this._courseCount = count;
+    }
+}
 const per1 = new User('soumya@gmail.com', "soumya dey");
 // console.log(per1);
 console.log(per1.getEmail);
