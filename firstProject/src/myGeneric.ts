@@ -1,17 +1,12 @@
-const score: Array<number> = [];
-const names:Array<string> = [];
+function identityOne(val: number | boolean): number | boolean{
+    return val;
+}
 
 function identityThree<Type>(val: Type): Type{
     return val;
 }
-//arrow function
-const getMore = <T,>(products: T[]): T =>{
-    return products[0];
-}
-
-interface Bootle {
+interface Bottle {
     brand: string;
     type: number;
 }
-identityThree<Bootle>({brand: 'milton', type: 1});
-getMore<Bootle>([{brand: 'paras', type: 3}]);
+
